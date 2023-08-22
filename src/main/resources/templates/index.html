@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan's Portfolio</title>
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #1e272e;
+            margin: 0;
+            padding: 0;
+            color: #f5f6fa;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            margin: 40px 0;
+            color: #f39c12;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #34495e;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+            border: 2px solid #2c3e50;
+        }
+
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .social-media-icon {
+            width: 40px;
+            height: 40px;
+            margin: 0 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-media-icon:hover {
+            transform: scale(1.2);
+        }
+
+        p.introduction {
+            font-size: 20px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .projects {
+            margin-top: 30px;
+        }
+
+        .project-description {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #2c3e50;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-description p {
+            font-size: 18px;
+            margin: 0;
+            color: #f5f6fa;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #e74c3c;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Evan's Portfolio</h1>
+    <div class="social-media-icons">
+        <!-- Attribution for GitHub icons -->
+        <!--<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Ruslan Babkin - Flaticon</a>-->
+        <a href="https://github.com/evanrobert">
+            <img class="social-media-icon" src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" alt="GitHub">
+        </a>
+        <!-- Attribution for LinkedIn icons -->
+        <!--<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Ruslan Babkin - Flaticon</a>-->
+        <a href="https://www.linkedin.com/in/evan-lindsay-65b64a244/">
+            <img class="social-media-icon" src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="LinkedIn">
+        </a>
+    </div>
+
+    <p class="introduction">Hi! I'm Evan, a Java/Spring Developer passionate about applying my knowledge to real-world projects.
+        As a lifelong learner, I thrive on continuously expanding my skill set and staying up-to-date with industry trends. I'm eager to pursue a Backend Developer role where I can contribute my expertise, adapt quickly to new technologies, and collaborate on impactful projects.</p>
+
+    <div class="projects">
+        <h2>Some of my projects include:</h2>
+
+        <div class="project-description">
+            <p><strong>SimpleBMI:</strong> A lightweight web application to calculate BMI.</p>
+            <a class="project-link" href="https://github.com/evanrobert/SimpleBMI">Click here to see my BMI application</a>
+        </div>
+        <div class="project-description">
+            <p><strong>MyWishVault:</strong> An application to create and manage wishlists.</p>
+            <a class="project-link" href="https://github.com/evanrobert/WishApp">Click here to see MyWishVault application</a>
+        </div>
+        <div class="project-description">
+            <p><strong>Sports Cards API:</strong> A RESTful API for CRUD operations on sports cards database.</p>
+            <a class="project-link" href="https://github.com/evanrobert/SportsCardAPI">Click here to see my sports-cards API</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
